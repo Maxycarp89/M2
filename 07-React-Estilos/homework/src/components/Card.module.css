@@ -1,0 +1,36 @@
+.btn{
+    background-color: red;
+    border-radius: 5px;    
+    position: absolute;
+    width: min-content;
+    height: min-content;
+    right: 5px;
+    top: 5px;
+    color: white;
+}
+
+.container{
+    
+    border:rgb(175, 169, 169) 1px;
+    border-radius: 5px;
+    background: linear-gradient(35deg,#CCFFFF,#FFCCCC);
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 200px;
+    position: relative;
+}
+
+.contenido{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenido img{
+    background-color:rgb(127, 174, 180) ;
+    border-radius: 5px;    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+}

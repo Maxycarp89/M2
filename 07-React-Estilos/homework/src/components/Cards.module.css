@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    border:rgba(197, 193, 193, 0.733) solid 1px;
+    
+    
+    
+}
